@@ -1,0 +1,104 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #0f3347; }
+    #root svg { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    #s2-blink { position: absolute; inset: 0; background: #070b22; opacity: 0; }
+  </style>
+  <div id="root" data-composition-id="s2" data-width="1080" data-height="1920" data-layout-allow-overflow data-layout-allow-overlap>
+    <svg viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+      
+<defs>
+  <linearGradient id="s2-water" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2a3577"/><stop offset="0.55" stop-color="#163e66"/><stop offset="1" stop-color="#0f3347"/>
+  </linearGradient>
+  <radialGradient id="s2-halo"><stop offset="0" stop-color="#ffd36e" stop-opacity="0.9"/><stop offset="0.45" stop-color="#ffd36e" stop-opacity="0.35"/><stop offset="1" stop-color="#ffd36e" stop-opacity="0"/></radialGradient>
+  <radialGradient id="s2-moonhalo"><stop offset="0" stop-color="#fff3c4" stop-opacity="0.55"/><stop offset="1" stop-color="#fff3c4" stop-opacity="0"/></radialGradient>
+  <radialGradient id="s2-bub" cx="0.4" cy="0.35"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#fff1c2"/><stop offset="1" stop-color="#ffd36e" stop-opacity="0.55"/></radialGradient>
+  <linearGradient id="s2-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c4" stop-opacity="0.16"/><stop offset="1" stop-color="#fff3c4" stop-opacity="0"/></linearGradient>
+</defs>
+      <g id="s2-cam">
+      
+      <rect x="-200" y="-400" width="1480" height="2720" fill="url(#s2-water)"/><g id="s2-rays" opacity="0.9">
+    <polygon points="380,-300 520,-300 760,1500 300,1500" fill="url(#s2-ray)"/>
+    <polygon points="640,-300 720,-300 1100,1400 820,1400" fill="url(#s2-ray)"/>
+    <polygon points="120,-300 200,-300 260,1300 -120,1300" fill="url(#s2-ray)"/></g>
+      <path d="M-200 1600 C 120 1530, 360 1610, 600 1560 C 820 1520, 1000 1590, 1280 1550 L 1280 2400 L -200 2400 Z" fill="#365a6e" stroke="#283272" stroke-width="5"/>
+  <path d="M-200 1700 C 200 1650, 500 1730, 760 1680 C 960 1650, 1100 1700, 1280 1680 L 1280 2400 L -200 2400 Z" fill="#2c4a5e"/>
+  <ellipse cx="160" cy="1790" rx="46" ry="20" fill="#24404f" stroke="#283272" stroke-width="4"/>
+  <ellipse cx="930" cy="1860" rx="60" ry="24" fill="#24404f" stroke="#283272" stroke-width="4"/>
+      <g transform="translate(160,1700) rotate(10)"><g id="s2-st1">
+    <circle id="s2-st1-halo" r="168" fill="url(#s2-halo)" opacity="0"/>
+    <polygon points="0.0,-56.0 16.5,-22.7 53.3,-17.3 26.6,8.7 32.9,45.3 0.0,28.0 -32.9,45.3 -26.6,8.7 -53.3,-17.3 -16.5,-22.7" fill="#3e5672" stroke="#283272" stroke-width="31.400000000000002" stroke-linejoin="round"/>
+    <polygon points="0.0,-56.0 16.5,-22.7 53.3,-17.3 26.6,8.7 32.9,45.3 0.0,28.0 -32.9,45.3 -26.6,8.7 -53.3,-17.3 -16.5,-22.7" fill="#3e5672" stroke="#3e5672" stroke-width="22.400000000000002" stroke-linejoin="round"/>
+    <g id="s2-st1-lit" opacity="0">
+      <polygon points="0.0,-56.0 16.5,-22.7 53.3,-17.3 26.6,8.7 32.9,45.3 0.0,28.0 -32.9,45.3 -26.6,8.7 -53.3,-17.3 -16.5,-22.7" fill="#ffd36e" stroke="#ffd36e" stroke-width="22.400000000000002" stroke-linejoin="round"/>
+      <circle r="19.6" fill="#fff1c2"/></g>
+    <circle cx="-15.4" cy="-22.400000000000002" r="4.9" fill="#fff6e0" opacity="0.6"/>
+    <circle cx="21" cy="-3.5" r="4.2" fill="#fff6e0" opacity="0.6"/>
+  </g></g><g transform="translate(900,1740) rotate(-14)"><g id="s2-st2">
+    <circle id="s2-st2-halo" r="144" fill="url(#s2-halo)" opacity="0"/>
+    <polygon points="0.0,-48.0 14.1,-19.4 45.7,-14.8 22.8,7.4 28.2,38.8 0.0,24.0 -28.2,38.8 -22.8,7.4 -45.7,-14.8 -14.1,-19.4" fill="#3e5672" stroke="#283272" stroke-width="28.2" stroke-linejoin="round"/>
+    <polygon points="0.0,-48.0 14.1,-19.4 45.7,-14.8 22.8,7.4 28.2,38.8 0.0,24.0 -28.2,38.8 -22.8,7.4 -45.7,-14.8 -14.1,-19.4" fill="#3e5672" stroke="#3e5672" stroke-width="19.2" stroke-linejoin="round"/>
+    <g id="s2-st2-lit" opacity="0">
+      <polygon points="0.0,-48.0 14.1,-19.4 45.7,-14.8 22.8,7.4 28.2,38.8 0.0,24.0 -28.2,38.8 -22.8,7.4 -45.7,-14.8 -14.1,-19.4" fill="#ffd36e" stroke="#ffd36e" stroke-width="19.2" stroke-linejoin="round"/>
+      <circle r="16.8" fill="#fff1c2"/></g>
+    <circle cx="-13.2" cy="-19.2" r="4.2" fill="#fff6e0" opacity="0.6"/>
+    <circle cx="18" cy="-3" r="3.5999999999999996" fill="#fff6e0" opacity="0.6"/>
+  </g></g>
+      <g id="s2-wh-body"><g transform="translate(210,360) scale(1.55)"><g id="s2-wh">
+        <g><g id="s2-whx">
+    <g id="s2-whx-tail">
+      <path d="M 488 178 C 540 190, 575 178, 600 150 C 588 118, 600 92, 648 76 C 650 116, 662 138, 702 148 C 662 166, 640 192, 616 218 C 584 246, 540 252, 496 246 Z" fill="#7d9be0" stroke="#283272" stroke-width="6" stroke-linejoin="round"/>
+    </g>
+    <path d="M 30 210 C 30 120, 140 70, 280 70 C 410 70, 500 130, 522 200 C 540 262, 470 302, 300 306 C 150 310, 30 292, 30 210 Z" fill="#7d9be0" stroke="#283272" stroke-width="6"/>
+    <path d="M 42 228 C 80 292, 250 314, 430 284 C 470 276, 500 262, 512 244 C 420 262, 200 268, 42 228 Z" fill="#d3ddf7"/>
+    <path d="M 120 262 C 200 280, 300 284, 400 270 M 150 282 C 230 296, 320 298, 390 288" fill="none" stroke="#b5c3ec" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="300" cy="120" r="12" fill="#9ab3ec"/><circle cx="345" cy="104" r="8" fill="#9ab3ec"/><circle cx="370" cy="140" r="10" fill="#9ab3ec"/>
+    <path d="M 226 76 C 232 64, 252 64, 258 76" fill="none" stroke="#283272" stroke-width="5" stroke-linecap="round"/>
+    <g id="s2-whx-fin">
+      <path d="M 232 244 C 244 300, 300 330, 336 306 C 316 286, 286 258, 262 238 Z" fill="#6c89d0" stroke="#283272" stroke-width="6" stroke-linejoin="round"/>
+    </g>
+    <ellipse id="s2-whx-cheek" cx="158" cy="208" rx="22" ry="12" fill="#f4a6b8" opacity="0.7"/>
+    <path d="M 58 214 Q 92 238, 128 222" fill="none" stroke="#283272" stroke-width="6" stroke-linecap="round"/>
+    <g id="s2-whx-eyeo" opacity="1">
+      <ellipse cx="132" cy="168" rx="13" ry="16" fill="#1b1f3a"/><circle cx="137" cy="162" r="5" fill="#ffffff"/></g>
+    <g id="s2-whx-eyec" opacity="0">
+      <path d="M 116 170 Q 132 184, 148 170" fill="none" stroke="#1b1f3a" stroke-width="6" stroke-linecap="round"/></g>
+  </g></g>
+        <g id="s2-bb" transform="translate(48,206)" opacity="0">
+          <circle r="16" fill="none" stroke="#fff6e0" stroke-width="3"/><circle cx="-5" cy="-6" r="4" fill="#ffffff"/></g>
+        <g id="s2-pop" transform="translate(30,40)" opacity="0">
+          <path d="M 0 -26 L 0 -38 M 22 -14 L 32 -20 M -22 -14 L -32 -20 M 18 16 L 28 22 M -18 16 L -28 22" stroke="#fff6e0" stroke-width="4" stroke-linecap="round"/></g>
+      </g></g></g>
+      </g>
+    </svg>
+    <div id="s2-blink"></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    
+    tl.fromTo("#s2-blink", { opacity: 0.65 }, { opacity: 0, duration: 0.45, ease: "power2.out" }, 0);
+    tl.to("#s2-blink", { opacity: 0.65, duration: 0.3, ease: "power2.in" }, 4.7);
+    tl.fromTo("#s2-wh", { x: 40 }, { x: 0, duration: 2.2, ease: "expo.out" }, 0);
+    
+    tl.fromTo("#s2-whx-tail", { rotation: -7 }, { rotation: 7, duration: 0.9, ease: "sine.inOut", yoyo: true, repeat: 6, transformOrigin: "0% 45%" }, 0);
+    tl.fromTo("#s2-whx-fin", { rotation: -6.6 }, { rotation: 11, duration: 1.3, ease: "sine.inOut", yoyo: true, repeat: 4, transformOrigin: "15% 10%" }, 0.2);
+    
+    tl.fromTo("#s2-wh-body", { y: -8 }, { y: 8, duration: 2.4, ease: "sine.inOut", yoyo: true, repeat: 2 }, 0);
+    // piscada: o olho aberto achata, o fechado aparece, e volta
+    tl.fromTo("#s2-whx-eyeo", { scaleY: 1 }, { scaleY: 0.1, duration: 0.09, ease: "power2.in", transformOrigin: "50% 60%" }, 1.35);
+    tl.set("#s2-whx-eyeo", { opacity: 0 }, 1.44);
+    tl.set("#s2-whx-eyec", { opacity: 1 }, 1.44);
+    tl.set("#s2-whx-eyec", { opacity: 0 }, 1.62);
+    tl.set("#s2-whx-eyeo", { opacity: 1 }, 1.62);
+    tl.to("#s2-whx-eyeo", { scaleY: 1, duration: 0.14, ease: "power2.out", transformOrigin: "50% 60%" }, 1.62);
+    // cora
+    tl.fromTo("#s2-whx-cheek", { opacity: 0.45, scale: 1 }, { opacity: 0.95, scale: 1.25, duration: 0.6, ease: "power2.out", transformOrigin: "50% 50%" }, 2.3);
+    // bolhinha sobe da boca e estoura em 3.6 s (som "pop")
+    tl.fromTo("#s2-bb", { opacity: 0, x: 48, y: 206, scale: 0.4 }, { opacity: 1, x: 30, y: 40, scale: 1, duration: 1.0, ease: "power2.out" }, 2.6);
+    tl.to("#s2-bb", { scale: 1.6, opacity: 0, duration: 0.12, ease: "power2.out" }, 3.6);
+    tl.fromTo("#s2-pop", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1.2, duration: 0.14, ease: "power3.out", transformOrigin: "50% 50%" }, 3.6);
+    tl.to("#s2-pop", { opacity: 0, duration: 0.25, ease: "power2.in" }, 3.78);
+    window.__timelines["s2"] = tl;
+  </script>
+</template>
